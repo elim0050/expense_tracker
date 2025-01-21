@@ -1,0 +1,44 @@
+{
+    "participants": [
+        {
+            "name": "Ethel",
+            "email": "ethellimjiayee@gmail.com",
+            "balance": 20.0
+        },
+        {
+            "name": "Lim",
+            "email": "thel@gmail.com",
+            "balance": -20.0
+        },
+        {
+            "name": "re",
+            "email": "re@gmail.com",
+            "balance": 0.0
+        }
+    ],
+    "expenses": [
+        {
+            "expense": 1,
+            "payer": "Ethel",
+            "amount": 40.0,
+            "split_among": [
+                "Lim"
+            ],
+            "type": "food"
+        }
+    ],
+    "money_balance": [
+        {
+            "expense": 1,
+            "name": "Lim",
+            "payer": "Ethel",
+            "amount": 40.0,
+            "paid": false
+        }
+    ],
+    "owe_list": {
+        "Lim": {
+            "Ethel": 10.0
+        }
+    }
+}
