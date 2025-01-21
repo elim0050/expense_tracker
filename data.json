@@ -3,17 +3,27 @@
         {
             "name": "Ethel",
             "email": "ethellimjiayee@gmail.com",
-            "balance": 20.0
+            "balance": 46.7
         },
         {
             "name": "Lim",
             "email": "thel@gmail.com",
-            "balance": -20.0
+            "balance": -47.96666666666667
         },
         {
             "name": "re",
             "email": "re@gmail.com",
-            "balance": 0.0
+            "balance": 44.53333333333333
+        },
+        {
+            "name": "wertyuio",
+            "email": "ertyui@gmail.com",
+            "balance": -29.3
+        },
+        {
+            "name": "Me",
+            "email": "23456@gmail,com",
+            "balance": 34.0
         }
     ],
     "expenses": [
@@ -22,23 +32,53 @@
             "payer": "Ethel",
             "amount": 40.0,
             "split_among": [
-                "Lim"
+                "re"
             ],
-            "type": "food"
+            "type": "re"
+        },
+        {
+            "payer": "re",
+            "amount": 90.0,
+            "split_between": [
+                "Ethel",
+                "Lim",
+                "re",
+                "wertyuio"
+            ]
+        },
+        {
+            "payer": "Ethel",
+            "amount": 56.0,
+            "split_between": [
+                "Ethel",
+                "Lim",
+                "re"
+            ]
+        },
+        {
+            "payer": "Me",
+            "amount": 34.0,
+            "split_between": [
+                "Ethel",
+                "Lim",
+                "re",
+                "wertyuio",
+                "Me"
+            ]
         }
     ],
     "money_balance": [
         {
             "expense": 1,
-            "name": "Lim",
+            "name": "re",
             "payer": "Ethel",
             "amount": 40.0,
             "paid": false
         }
     ],
     "owe_list": {
-        "Lim": {
-            "Ethel": 10.0
+        "re": {
+            "Ethel": 20.0
         }
     }
 }
